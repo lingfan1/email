@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.div1{
+    width: auto;
+    height: 25px;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 10pt;
+    line-height: 25px;
+}
+.div2{
+    width: auto;
+    height: 25px;
+    padding: 5px 20px;
+    margin: 5px 0;
+    background: #eee;
+    border-bottom: 1px solid #aaf;
+}
+.div2-1{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    float: left;
+    font-size: 10pt;
+}
+.div2-1 input{
+    font-size: 10pt;
+}
+.div2-2{
+    width: auto;
+    height: auto;
+    margin: 0;
+    float: right;
+    font-size: 10pt;
+    line-height: 25px;
+}
+.div3{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.div3 table{
+    width: 100%;
+    font-size: 10pt;
+}
+.div3 table td{
+    height: 30px;
+    border-bottom: 1px solid #aaf;
+    vertical-align: middle;
+}
+.div3 table td a:link{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.div3 table td a:visited{
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+}
+.div3 table .td1{width: 30px;}
+.div3 table .td2{width: 150px;}
+.div3 table .td3{width: auto;}
+.div3 table .td4{width: 20px;}
+.div3 table .td5{width: 120px;}

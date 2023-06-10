@@ -1,0 +1,24 @@
+body{margin: 0;}
+#div1{width: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px 0;
+    background: #eef;
+    border-bottom: 2px solid #aaf;}
+p{margin: 5px 0;
+    padding: 0 10px;
+    font-size: 10pt;
+    line-height: 20px;}
+#div2{width: auto;
+    height: auto;
+    margin: 0;
+    padding: 10px 0;}
+#div2 p{text-indent: 2em;}
+#div3{width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #aaf;}
+#div3 .p1{margin: 0;
+    background: #eef;
+    line-height: 40px;}

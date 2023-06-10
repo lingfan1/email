@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>邮箱登录界面</title>
+    <link rel="stylesheet" href="./css/denglu.css">
+</head>
+<body>
+    <div class="divw">
+        <div id="errormsg">账号或密码输入错误，请重新输入</div>
+        <div id="cont">
+            <form id="form1" name="form1" method="post" action="denglu.php">
+                <p>用户名：<input name="emailaddr" id="emailaddr">@163.com</p>
+                <p>密&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" name="psd" id="psd">忘记密码</p>
+                <p align="center">
+                    <input type="submit" class="sbt" value="登录">&nbsp;&nbsp;
+                    <input type="button" class="btn" value="注册" onclick="window.open('zhuce/zhuce.html')">
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

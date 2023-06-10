@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/denglu-tab.css">
+    <script src="./js/denglu-tab.js"></script>
+</head>
+<body>
+    <div class="divw">
+        <div id="tab">
+            <a href="JavaScript:void(0)">用户名登录</a>
+            <a href="JavaScript:void(0)" class="tab2">手机号登录</a>
+        </div>
+        <div class="contdiv">
+            <div id="errormsg">账号或密码错误，请重新输入</div>
+            <div id="cont1" class="cont">
+                <form id="form1" name="form1" method="post" action="./denglu.php">
+                    <p>用户名：<input name="emailaddr" id="emailaddr" type="text">@163.com</p>
+                    <p>密码：<input name="psd" id="psd" type="password">忘记密码</p>
+                    <p align="center">
+                        <input type="submit" class="sbt" value="登录">
+                        <input type="button" class="btn" value="注册" onclick="window.open('zhuce/zhuce.html')">
+                    </p>
+                </form>
+            </div>
+            <div id="cont2" class="cont">
+                <form id="form1" name="form1" method="post" action="">
+                    <p>手机号：<input name="phoneno" id="phoneno" type="text">@163.com</p>
+                    <p>密码：<input name="psd" id="psd" type="password">忘记密码</p>
+                    <p align="center">
+                        <input type="submit" class="sbt" value="登录">
+                        <input type="button" class="btn" value="注册" onclick="window.open('zhuce/zhuce.html')">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

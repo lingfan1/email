@@ -1,0 +1,142 @@
+body{margin: 0;}
+.write{
+    width: 120px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/writebg.JPG);
+    font-size: 10pt;
+    text-align: center;
+    line-height: 20px;
+}
+.butdivsh{
+    width: auto;
+    height: 28px;
+    padding: 8px 10px 0;
+    margin: 0;
+    border-bottom: 1px solid #aaf;
+    background: #eee;
+}
+.butdivx{
+    width: auto;
+    height: 30px;
+    margin: 70px 0px;
+    padding: 8px 10px 0;
+    border-top: 1px solid #aaf;
+    background: #eee;
+}
+.butdivsh input, .butdivx input{
+    height: 25px;
+    font-size: 10pt;
+}
+.divcont{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 10px 0;
+}
+#wdiv{
+    width: 300px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#zhedie{
+    width: 10px;
+    height: 60px;
+    padding: 193px 0;
+    margin: 0;
+    float: left;
+}
+#rdiv{
+    width: 200px;
+    height: 444px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    background: rgb(255, 255, 255);
+    float: left;
+}
+#wdiv table{
+    width: 100%;
+    table-layout: fixed;
+}
+#wdiv table td{
+    font-size: 10pt;
+    vertical-align: top;
+}
+#wdiv table .tdleft{
+    width: 15px;
+    text-align: right;
+}
+#wdiv table .tdright{
+    width: 200px;
+}
+#sender{
+    width: 200px;
+    height: 25px;
+    padding: 0;
+    margin: 0 0 5px;
+    border: 0;
+    font-size: 12pt;
+    line-height: 25pt;
+    font-weight: bold;
+}
+#receiver, #subject{
+    width: auto;
+    height: 25px;
+    padding: 0;
+    margin: 0 0 5px;
+    border: 1px solid #ddd;
+    font-size: 12pt;
+    line-height: 25px;
+}
+#content{
+    width: auto;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    font-size: 10pt;
+    line-height: 25px;
+}
+.clear{
+    clear: both;
+}
+.inp::-webkit-input-placeholder{
+    color: #f00;
+}
+.inp:-moz-placeholder{
+    color: #f00;
+}
+.inp::-moz-placeholder{
+    color: #f00;
+}
+.inp:-ms-input-placeholder{
+    color: #f00;
+}
+.attachmsg{
+    width: auto;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}
+.del{
+    color: #00f;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.add{
+    color: #00f;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 30px;
+}
+.tdright p{
+    margin: 0 0 5px 0;
+    display: none;
+}
+.tdright #p1{
+    display: block;
+}
