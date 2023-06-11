@@ -2,7 +2,7 @@
 session_start();
 $emailaddr=$_POST['emailaddr'];
 $_SESSION['emailaddr']=$emailaddr;
-$conn=mysqli_connect('localhost','root','');
+$conn=mysqli_connect('localhost','root','root');
 mysqli_select_db($conn,'email');
 $emailaddr=mysqli_real_escape_string($conn,$emailaddr);
 $psd=mysqli_real_escape_string($conn,$_POST['psd']);

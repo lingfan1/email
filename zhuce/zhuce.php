@@ -7,7 +7,7 @@
   $yzmchar=$_SESSION['string'];
   $zhucedate=date('Y-m-d H:i');
   if(strtoupper($useryzm)==$yzmchar){
-    $conn=mysqli_connect('localhost','root','');
+    $conn=mysqli_connect('localhost','root','root');
     mysqli_select_db($conn,'email');
     $sql="insert into usermsg values('$emailaddr','$psd','$phoneno','$zhucedate')";
     mysqli_query($conn,$sql);

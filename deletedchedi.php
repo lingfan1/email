@@ -1,7 +1,7 @@
 <?php
     $emailno=$_POST['markup'];
     $num=count($emailno);
-    $conn=mysqli_connect('localhost','root','');
+    $conn=mysqli_connect('localhost','root','root');
     mysqli_select_db($conn,'email');
     for($i=0;$i<$num;$i++){
         $sql="select * from emailmsg where emailno = $emailno[$i]";

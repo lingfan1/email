@@ -18,7 +18,7 @@ for($i=1;$i<=10;$i++){
         $attachment="$attachment$fname ($fsize)".";";
     }
 }
-$conn=mysqli_connect('localhost','root','');
+$conn=mysqli_connect('localhost','root','root');
 mysqli_select_db($conn,'email');
 // $sql="insert into emailmsg(sender,receiver,subject,content,datesorr,attachment,deleted) values('$sender', '$receiver', '$subject', '$content', '$datesorr', '$attachment', '0')";
 // mysql_query($conn,$sql);

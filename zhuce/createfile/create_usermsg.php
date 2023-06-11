@@ -1,6 +1,6 @@
 <?php
     header("Content-Type:text/html;charset=utf8");
-    $conn=mysqli_connect('localhost','root','');
+    $conn=mysqli_connect('localhost','root','root');
     if(!$conn){
         die("错误编号是：".mysqli_connect_errno()."<br/>错误信息是：".mysqli_connect_errno());
     }else{

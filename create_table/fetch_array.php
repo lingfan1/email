@@ -1,6 +1,6 @@
 <?php
     header("Content-Type:text/html;charset=utf8");
-    $conn=mysqli_connect('localhost','root','');
+    $conn=mysqli_connect('localhost','root','root');
     mysqli_select_db($conn,'email');
     $sql="select * from emailmsg where emailno=1";
     $res=mysqli_query($conn,$sql);

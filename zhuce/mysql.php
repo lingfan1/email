@@ -1,7 +1,7 @@
 <?php
     header("Content-Type:text/html;charset=utf8");
     // $conn=mysqli_connect('localhost','root','','email');
-    $conn=mysqli_connect('localhost','root','');
+    $conn=mysqli_connect('localhost','root','root');
     if(!$conn){
         // die("数据库连接失败，错误编号是：".mysqli_connect_errno()."<br/>错误信息是：".mysqli_connect_errno());
         die("错误编号是：".mysqli_connect_errno()."<br/>错误信息是：".mysqli_connect_errno());

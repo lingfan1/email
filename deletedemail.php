@@ -12,7 +12,7 @@
     <?php
         session_start();
         $uname=$_SESSION['emailaddr']."@163.com";
-        $conn=mysqli_connect('localhost','root','');
+        $conn=mysqli_connect('localhost','root','root');
         mysqli_select_db($conn,'email');
         $sql="select * from emailmsg where receiver like '$uname%' and STATUS=1";
         $res=mysqli_query($conn,$sql);

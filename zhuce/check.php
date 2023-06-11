@@ -1,6 +1,6 @@
 <?php
 $emailaddr=$_POST['emailaddr'];
-$conn=mysqli_connect('localhost','root','');
+$conn=mysqli_connect('localhost','root','root');
 mysqli_select_db($conn,'email');
 $sql="select * form usermsg where emailaddr='$emailaddr'";
 $res=mysqli_query($conn,$sql);

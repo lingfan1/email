@@ -1,7 +1,7 @@
 <?php
     $emailno=$_POST['markup'];
     $num=count($emailno);
-    $conn=mysqli_connect('localhost','root','');
+    $conn=mysqli_connect('localhost','root','root');
     mysqli_select_db($conn,'email');
     for($i=0;$i<count($emailno);$i++){
         $sql="update emailmsg set status =1 where emailno = $emailno[$i]";
